@@ -3,7 +3,7 @@ import { montserrat, lora, hind_madurai } from '../fonts'
 
 const Experience = () => {
     return (
-        <section id='experience' className='h-screen'>
+        <section className='h-screen' id='experience' >
             <div>
                 <h1 className={`${montserrat.className} text-whiteCustom font-bold mb-5 text-xl`}>EXPERIENCIA</h1>
                 <h1 className={`${montserrat.className} text-whiteCustom mb-2 font-semibold text-xs`}>Front-End Developer</h1>
