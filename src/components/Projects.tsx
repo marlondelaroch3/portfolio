@@ -12,23 +12,23 @@ const PROJECTS: Array<ProjectProps> = [
         text: "Llevé acabo el soporte de la web e implementé la tecnología AMP para la administración de la publicidad."
     },
     {
-        image: "/assets/easy_cl.png",
+        image: "/assets/renaware_usa.png",
         title: "Renaware USA",
-        link: "https://www.easy.cl/",
+        link: "https://www.renaware.com/",
         alt: "página web de easy chile",
         text: "Implementé el flujo completo de autenticación con VTEX IO, desde el inicio de sesión hasta el perfíl y todas sus configuraciones."
     },
     {
-        image: "/assets/easy_cl.png",
+        image: "/assets/chedraui_mx.png",
         title: "Chedraui MX",
-        link: "https://www.easy.cl/",
+        link: "https://www.chedraui.com.mx/",
         alt: "página web de easy chile",
         text: "Mejoré apróximadamente en un 40% el rendimiento de la página web."
     },
     {
         image: "/assets/easy_cl.png",
         title: "Repuestodo Chile",
-        link: "https://www.easy.cl/",
+        link: "https://www.repuestodo.cl/",
         alt: "página web de easy chile",
         text: "Primera experiencia liderando un equipo desde el inicio del proyecto hasta tener la página lista para la carga en el backoffice y posterior Go Live. En este proyecto trabajé en diversas funcionalidades core, tales como un Slider de testimonios, todo el home de la página, y principalmente la funcionalidad más importante, La posibilidad de hacer una búsqueda a través de compatibilidades, entre un producto y diversas marcas, modelos, cilindradas y años de automoviles."
     }

@@ -1,10 +1,45 @@
 import React from 'react'
+import Gmail from './icons/contact/Gmail'
+import Github from './icons/contact/Github'
+import Linkedin from './icons/contact/Linkedin'
+import Phone from './icons/contact/Phone'
+import Link from 'next/link'
+
+const SOCIAL_NETWORKS = [
+    {
+        title: 'Gmail',
+        image: <Gmail />,
+        link: 'mailto:marlondelaroch3@gmail.com'
+    },
+    {
+        title: 'Github',
+        image: <Github />,
+        link: 'https://github.com/marlondelaroch3'
+    },
+    {
+        title: 'Linkedin',
+        image: <Linkedin />,
+        link: 'https://www.linkedin.com/in/marlondelaroch3/'
+    },
+    {
+        title: 'Phone',
+        image: <Phone />,
+        link: 'tel:+573228048771'
+    }
+]
 
 const Contact = () => {
     return (
-        <footer className='h-52 bg-blue-300' id="contact" >
-            <h1 className='text-center'>marlondelaroch3@gmail.com | +573228048771</h1>
-            <h2 className='text-center'>LinkedIn: /in/marlondelaroch3/ | Github: github.com/marlondelaroch3</h2>
+        <footer className='h-auto bg-blue-300' id="contact" >
+            {SOCIAL_NETWORKS.map(({ title, image, link }) => {
+                return (
+                    <div key={title.toLowerCase()}>
+                        <Link href={link} target='_blank'>
+                            {image}
+                        </Link>
+                    </div>)
+            })
+            }
         </footer>
     )
 }
