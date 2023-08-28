@@ -37,7 +37,7 @@ const PROJECTS: Array<ProjectProps> = [
 
 const Projects = () => {
     return (
-        <section className='h-auto' id="projects" >
+        <section className='h-auto mb-14' id="projects" >
             <h1 className={`${montserrat.className} text-whiteCustom font-bold mb-5 text-xl`}>PROYECTOS</h1>
             <div className=''>
                 {PROJECTS.map(({ image, title, link, alt, text }) => <Card key={title.toLowerCase()} image={image} title={title} link={link} alt={alt} text={text}/>)}

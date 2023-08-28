@@ -30,16 +30,18 @@ const SOCIAL_NETWORKS = [
 
 const Contact = () => {
     return (
-        <footer className='h-auto bg-blue-300' id="contact" >
-            {SOCIAL_NETWORKS.map(({ title, image, link }) => {
-                return (
-                    <div key={title.toLowerCase()}>
-                        <Link href={link} target='_blank'>
-                            {image}
-                        </Link>
-                    </div>)
-            })
-            }
+        <footer className='h-auto w-screen mb-5 flex justify-center' id="contact" >
+            <div className='flex justify-center w-max'>
+                {SOCIAL_NETWORKS.map(({ title, image, link }) => {
+                    return (
+                        <div key={title.toLowerCase()}>
+                            <Link href={link} target='_blank'>
+                                {image}
+                            </Link>
+                        </div>)
+                })
+                }
+            </div>
         </footer>
     )
 }
