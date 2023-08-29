@@ -35,6 +35,9 @@ dependencies:
   react:
     specifier: 18.2.0
     version: 18.2.0
+  react-card-flip:
+    specifier: ^1.2.0
+    version: 1.2.0(react-dom@18.2.0)(react@18.2.0)
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
@@ -47,6 +50,9 @@ dependencies:
   typescript:
     specifier: 5.1.6
     version: 5.1.6
+  uuid:
+    specifier: ^9.0.0
+    version: 9.0.0
 
 packages:
 
@@ -2633,6 +2639,16 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /react-card-flip@1.2.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-5/tbaSBoTTdxV2glail7fr7W7CqNG/4BOm17pNmI1b6TwtRRUrElPdAO4h235MGU2dDwqyWBzO+H8y2Ax6BTpA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
@@ -3301,6 +3317,11 @@ packages:
   /uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
     deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    hasBin: true
+    dev: false
+
+  /uuid@9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
     hasBin: true
     dev: false
 
