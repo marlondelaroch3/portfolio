@@ -37,7 +37,6 @@ const About = () => {
                 </ReactCardFlip>
             </div>
             <Link className='border border-solid rounded-full animate-bounce border-whiteCustom' href="#experience" ><Image src="/assets/arrow.png" alt='arrow to bottom' width="28" height="28" /></Link>
-            {/* <Rocket className="opacity-50 mb-14" /> */}
         </section>
 
 
