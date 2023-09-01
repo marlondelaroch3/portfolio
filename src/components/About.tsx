@@ -9,10 +9,11 @@ import ClickHere from './icons/about/ClickHere';
 
 const About = () => {
     const [flip, setFlip] = useState(false);
+    const FLIP_DIRECTION = "horizontal";
     return (
         <section className="h-auto flex flex-col items-center mb-8" id="about" >
             <div className='h-auto mb-5'>
-                <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
+                <ReactCardFlip isFlipped={flip} flipDirection={FLIP_DIRECTION}>
                     <div>
                         <div className='bg-gradientCustom w-72 h-85 flex flex-col rounded-sm' onClick={() => setFlip(!flip)}>
                             <div className='h-2/4 flex items-end justify-center'>
