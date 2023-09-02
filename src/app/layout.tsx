@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html className='scroll-smooth' lang="es" >
-      <body className='mt-12 pl-4 pr-4 flex flex-col items-center'>{children}</body>
+      <body className='pl-4 pr-4 flex flex-col items-center'>{children}</body>
     </html>
   )
 }

@@ -11,7 +11,7 @@ const About = () => {
     const [flip, setFlip] = useState(false);
     const FLIP_DIRECTION = "horizontal";
     return (
-        <section className="h-auto flex flex-col items-center mb-8" id="about" >
+        <section className="h-auto flex flex-col items-center mt-12 mb-8" id="about" >
             <div className='h-auto mb-5'>
                 <ReactCardFlip isFlipped={flip} flipDirection={FLIP_DIRECTION}>
                     <div>
