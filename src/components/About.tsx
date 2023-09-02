@@ -36,12 +36,8 @@ const About = () => {
                     </div>
                 </ReactCardFlip>
             </div>
-            <Link className='border border-solid rounded-full animate-bounce border-whiteCustom' href="#experience" ><Image src="/assets/arrow.png" alt='arrow to bottom' width="28" height="28" /></Link>
+            <Link className='animate-bounce' href="#experience" ><Image src="/assets/arrow.png" alt='arrow to bottom' width="28" height="28" /></Link>
         </section>
-
-
-
-
     )
 }
 
