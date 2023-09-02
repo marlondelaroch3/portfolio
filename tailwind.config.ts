@@ -3,6 +3,12 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   theme: {
     extend: {
+      screens: {
+        "mobile": "320px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "lgDesktop": "1440px",
+      },
       colors: {
         whiteCustom: "#EDF9FE",
       },
