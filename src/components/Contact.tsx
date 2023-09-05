@@ -30,7 +30,7 @@ const SOCIAL_NETWORKS = [
 
 const Contact = () => {
     return (
-        <footer className='h-auto w-screen mb-5 flex justify-center' id="contact" >
+        <footer className='h-auto w-full mb-5 flex justify-center' id="contact" >
             <div className='flex justify-center w-max'>
                 {SOCIAL_NETWORKS.map(({ title, image, link }) => {
                     return (
