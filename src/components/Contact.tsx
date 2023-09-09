@@ -4,6 +4,7 @@ import Github from './icons/contact/Github'
 import Linkedin from './icons/contact/Linkedin'
 import Phone from './icons/contact/Phone'
 import Link from 'next/link'
+import { montserrat } from '../fonts';
 
 const SOCIAL_NETWORKS = [
     {
@@ -30,17 +31,26 @@ const SOCIAL_NETWORKS = [
 
 const Contact = () => {
     return (
-        <footer className='h-auto w-full mb-5 flex justify-center' id="contact" >
-            <div className='flex justify-center w-max'>
-                {SOCIAL_NETWORKS.map(({ title, image, link }) => {
-                    return (
-                        <div key={title.toLowerCase()}>
-                            <Link href={link} target='_blank'>
-                                {image}
-                            </Link>
-                        </div>)
-                })
-                }
+        <footer className='h-auto w-full mt-10 mb-5 flex flex-col' id="contact" >
+            
+            <div className='flex flex-col justify-center w-full h-52'>
+
+                <div className='flex justify-center'>
+                    {SOCIAL_NETWORKS.map(({ title, image, link }) => {
+                        return (
+                            <div className='bg-gradientCustom border-b-4 border-l-4  p-1 rounded-full border-slate-600 border-[1px] m-1 shadow-md shadow-slate-900 animate-float' 
+                            key={title.toLowerCase()}>
+                                <Link href={link} target='_blank'>
+                                    {image}
+                                </Link>
+                            </div>)
+                    })
+                    }
+                </div>
+                <div className='flex text-whiteCustom opacity-40 justify-center h-20 items-end '>
+                <h3 className=' bottom-0 font-extralight italic tablet:text-2xl'>Derechos Reservados - RochCode 2023</h3>
+                </div>
+
             </div>
         </footer>
     )

@@ -3,5 +3,6 @@ export interface ProjectProps {
     title: string,
     link: string,
     alt: string,
-    text: string
+    text: string,
+    backgroundColor: string,
 }
