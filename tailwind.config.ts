@@ -4,16 +4,17 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        "mobile": "320px",
-        "tablet": "768px",
-        "desktop": "1024px",
-        "lgDesktop": "1440px",
+        mobile: "320px",
+        tablet: "768px",
+        desktop: "1024px",
+        lgDesktop: "1440px",
       },
       colors: {
         whiteCustom: "#EDF9FE",
       },
       backgroundColor: {
         mainBgColor: "#324359",
+        purpleColor: "#3D4073",
       },
       backgroundImage: {
         gradientCustom:
@@ -43,9 +44,15 @@ const config: Config = {
           "0%": { transform: "scale(1)" },
           "100%": { transform: "scale(0.5)" },
         },
+        float: {
+          "0%": {transform: "translateY(0)"},
+          "50%": {transform: "translateY(-10px)"},
+          "100%": {transform: "translateY(0)"},
+          }
       },
       animation: {
         clickHere: "clickHere 1s ease-in-out infinite",
+        float: "float 3s ease-in-out infinite",
       },
     },
   },
