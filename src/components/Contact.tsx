@@ -25,7 +25,7 @@ const SOCIAL_NETWORKS = [
     {
         title: 'Phone',
         image: <Phone />,
-        link: 'tel:+573228048771'
+        link: 'https://wa.me/+573228048771'
     }
 ]
 
@@ -48,7 +48,7 @@ const Contact = () => {
                     }
                 </div>
                 <div className='flex text-whiteCustom opacity-40 justify-center h-20 items-end '>
-                <h3 className=' bottom-0 font-extralight italic tablet:text-2xl'>Derechos Reservados - RochCode 2023</h3>
+                <h3 className={`${montserrat.className} bottom-0 font-extralight italic`}>©️ RochCode 2023</h3>
                 </div>
 
             </div>

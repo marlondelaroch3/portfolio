@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                     <div className='flex justify-evenly flex-col items-center h-[100vh]'>
                         <div className='bg-gradientCustom w-full h-[80vh] flex justify-center items-center rounded-sm p-8 desktop:w-3/4 lgDesktop:w-3/4' onClick={() => setFlip(!flip)}>
-                            <p className={`${hind_madurai.className} text-whiteCustom text-sm text-center font-extralight tablet:w-4/5 tablet:leading-8 tablet:text-xl `} >Con experiencia en ReactJS Redux, VTEX IO y Typescript. Me gusta trabajar en nuevas funcionalidades y mejorar las existentes. He liderado equipos en diferentes rubros para los consecución de objetivos de la forma más eficiente. Participé en proyectos para grandes empresas de Estados Unidos, Colombia, Chile y México, teniendo la oportunidad de liderar uno de ellos.</p>
+                            <p className={`${hind_madurai.className} text-whiteCustom text-sm text-center font-extralight tablet:w-4/5 tablet:leading-8 tablet:text-xl `} >Cuento con experiencia en ReactJS, Redux, VTEX IO y Typescript. Me gusta trabajar en nuevas funcionalidades y mejorar las existentes. He liderado equipos en diferentes rubros para los consecución de objetivos de la forma más eficiente. Participé en proyectos para grandes empresas de Estados Unidos, Colombia, Chile y México, teniendo la oportunidad de liderar uno de ellos.</p>
                         </div>
                         <Image className='animate-bounce' src="/assets/arrow.png" alt='arrow to bottom' width="28" height="28" />
                     </div>
